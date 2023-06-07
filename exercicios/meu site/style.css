@@ -33,3 +33,7 @@ header > nav {
 img {
     max-width: 100px;
 }
+
+nav > a {
+    text-decoration: none;
+}
