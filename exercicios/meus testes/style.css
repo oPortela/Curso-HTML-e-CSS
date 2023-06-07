@@ -1,0 +1,131 @@
+/*@charset "UTF-8";
+
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background-image: linear-gradient(to right, #c7c7c7,  #736E65);
+}
+
+main {
+    background-color: #F2F2F0;
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px #9272318a;
+    width: 600px;
+    padding: 10px;
+    margin: auto;
+}
+
+h1 {
+    color: #736E65;
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}*/
+
+@charset "UTF-8";
+
+* {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-image: linear-gradient(to right, #c7c7c7, #736E65);
+}
+
+main {
+  background-color: #F2F2F0;
+  border-radius: 5px;
+  box-shadow: 5px 5px 15px #9272318a;
+  width: 600px;
+  padding: 10px;
+  margin: auto;
+}
+
+h1 {
+  color: #736E65;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+}
+
+@keyframes drawHeart {
+  0% {
+    border: none;
+  }
+
+  10% {
+    border-top: 3px solid red;
+  }
+
+  20% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+  }
+
+  30% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+  }
+
+  40% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+  }
+
+  50% {
+    border-top: 3px solid red;
+    border-right: none;
+    border-bottom: none;
+    border-left: none;
+  }
+
+  60% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: none;
+    border-left: none;
+  }
+
+  70% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: none;
+  }
+
+  80% {
+    border-top: 3px solid red;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+  }
+
+  90% {
+    border-top: none;
+    border-right: 3px solid red;
+    border-bottom: 3px solid red;
+    border-left: 3px solid red;
+  }
+
+  100% {
+    border: 3px solid red;
+  }
+}
+
+.heart {
+  width: 100px;
+  height: 100px;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  animation: drawHeart 2s ease-in-out infinite;
+}
+

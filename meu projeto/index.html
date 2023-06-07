@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cirlene's Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Marcação de Horário</h1>
+      </header>
+    
+      <div class="container">
+        <div class="form">
+          <h2>Agendar Horário</h2>
+          <form id="appointment-form">
+            <div class="form-group">
+              <label for="name">Nome:</label>
+              <input type="text" id="name" required>
+            </div>
+    
+            <div class="form-group">
+              <label for="service">Serviço:</label>
+              <select id="service" required>
+                <option value="">Selecione um serviço</option>
+                <option value="Corte de Cabelo">Corte de Cabelo</option>
+                <option value="Manicure">Manicure</option>
+                <option value="Pedicure">Pedicure</option>
+                <option value="Maquiagem">Maquiagem</option>
+              </select>
+            </div>
+    
+            <div class="form-group">
+              <label for="date">Data:</label>
+              <input type="date" id="date" required>
+            </div>
+    
+            <div class="form-group">
+              <label for="time">Horário:</label>
+              <input type="time" id="time" required>
+            </div>
+    
+            <button type="submit">Agendar</button>
+          </form>
+        </div>
+    
+        <div id="calendar">
+          <h2>Calendário</h2>
+          <div id="calendar-content"></div>
+        </div>
+      </div>
+    
+      <div id="modal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2>Detalhes do Agendamento</h2>
+          <div id="appointment-details"></div>
+        </div>
+      </div>
+    
+      <script src="script.js"></script>
+</body>
+</html>

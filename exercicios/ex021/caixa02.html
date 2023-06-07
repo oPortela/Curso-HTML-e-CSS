@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2? family= Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700; 1.800;1.900 & display=swap');
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            /*border-radius: 10px;*/
+        }
+
+        h1 {
+            box-shadow: 5px 3px 7px 1px rgb(0, 0, 0.5);
+        }
+
+        nav {
+            background-color: rgb(102, 102, 102);
+            padding: 3px;
+            box-shadow: 4px 5px 4px #00000052;
+           /*font-family: 'Playfair Display';*/
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+            font-family: 'Playfair Display','Times New Roman', Times, serif;
+            /*color: rgb(255, 0, 0);
+            background-color: rgb(0, 0, 0.5);*/
+        }
+        
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px 0px;
+            box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.384);
+        }
+
+        article {
+            background-color: lightgray;
+        }
+
+        article > aside {
+            background-color: rgb(165,165,165);
+        }
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+
+       /* #assuntos {
+            background-color: rgb(48, 44, 44);
+            color: white;
+            margin: 5px;
+            outline: 5px;
+            outline-style: groove;
+            outline-color: red;
+            border-width: 10px;
+            border-style: solid;
+            border-color: blue;
+        }*/
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <header> <!-- Cabeçalho -->
+        <h1>Meu Site</h1>
+        <nav> <!-- referencia a navegação-->
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+            <a href="#">Link 4</a>
+            <a href="#">Link 5</a>
+        </nav>
+    </header>
+    <main> <!-- Menu -->
+        <section id="assuntos"> <!-- Seção -->
+            <p>Esportes, Politica, Tecnologia</p>
+        </section>
+
+        <section id="noticias">
+            <article> <!-- Artigo -->
+                <h2>Noticia sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo neque cum ex saepe corrupti earum error commodi sunt ad necessitatibus, qui nemo consectetur magnam voluptates quis nobis quaerat, pariatur minus!</p>
+                <aside> <!--Conteudo periferico ao artigo-->
+                    <p>Artigo escrito por Matheus Marques</p>
+                </aside>
+            </article>
+            <article>
+
+            </article>
+        </section>
+    </main>
+    <footer> <!-- Rodapé -->
+        <p>Desenvolvido pelo curso em video</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
