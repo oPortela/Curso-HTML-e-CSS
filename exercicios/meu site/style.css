@@ -18,6 +18,7 @@ header {
     background-color: black;
     font-family: var(--fonte-padrao);
     font-weight: normal;
+    color: gray;
 }
 
 header > h1 {
