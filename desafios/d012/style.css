@@ -49,6 +49,7 @@ article > p {
 }
 
 .imagem {
+    background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.377);
     height: 200px;
     width: 200px;
