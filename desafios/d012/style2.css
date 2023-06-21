@@ -40,9 +40,9 @@ article > p {
     font-family: 'Passion One';
 }
 
-.texto {
+#bloco1 {
+    background-color: gray;
     height: 70vh;
-    padding: 20px;
 }
 
 #secao1 {
@@ -50,7 +50,7 @@ article > p {
     background-image: url(imagens/background001.jpg);
     background-color: black;
     color: white;
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
     height: 70vh;
     width: auto;
@@ -58,17 +58,32 @@ article > p {
     position: relative;
 }
 
-.imagem {
+#bloco2 {
     background-color: rgba(0, 0, 0, 0.377);
     height: 200px;
     width: 200px;
 
     position: absolute;
+}
 
-    left: 50%;
-    top: 50%;
+#bloco3 {
+    background-color: gray;
+    height: 70vh;
+}
 
-    transform: translate(-200%, -100%);
+#bloco4 {
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
+    background-color: black;
+    color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
+}
+
+#bloco5 {
+    height: 70vh;
 }
 
 footer {
