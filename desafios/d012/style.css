@@ -24,12 +24,15 @@ header{
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
+    font-size: large;
+    
 }
 
 a {
     text-decoration: none;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
 }
 
 a:hover{
