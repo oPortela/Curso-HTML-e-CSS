@@ -42,21 +42,48 @@ article > p {
 
 #bloco1 {
     background-color: gray;
+    height: 70vh;
 }
 
-#bloco2 {
+#secao1 {
+    background-attachment: fixed;
     background-image: url(imagens/background001.jpg);
     background-color: black;
     color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
+
+    position: relative;
+}
+
+#bloco2 {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
 }
 
 #bloco3 {
     background-color: gray;
+    height: 70vh;
 }
 
 #bloco4 {
+    background-attachment: fixed;
     background-image: url(imagens/background002.jpg);
+    background-color: black;
     color: white;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
+}
+
+#bloco5 {
+    height: 70vh;
 }
 
 footer {
