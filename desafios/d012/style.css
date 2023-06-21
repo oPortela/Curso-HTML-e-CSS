@@ -45,6 +45,19 @@ article > p {
     padding: 20px;
 }
 
+.imagem {
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 200px;
+    width: 200px;
+
+    position: absolute;
+
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-200%, -100%);
+}
+
 #secao1 {
     background-attachment: fixed;
     background-image: url(imagens/background001.jpg);
@@ -58,17 +71,17 @@ article > p {
     position: relative;
 }
 
-.imagem {
-    background-color: rgba(0, 0, 0, 0.377);
-    height: 200px;
-    width: 200px;
+#secao2 {
+    background-attachment: fixed;
+    background-image: url(imagens/background002.jpg);
+    background-color: black;
+    color: white;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    width: auto;
 
-    position: absolute;
-
-    left: 50%;
-    top: 50%;
-
-    transform: translate(-200%, -100%);
+    position: relative;
 }
 
 footer {
