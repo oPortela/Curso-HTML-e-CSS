@@ -21,10 +21,6 @@ header{
     padding-bottom: 40px;
 }
 
-article > p {
-    font-family: 'Passion One';
-}
-
 header > p {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: normal;
@@ -38,4 +34,40 @@ a {
 
 a:hover{
     text-decoration: underline;
+}
+
+article > p {
+    font-family: 'Passion One';
+}
+
+#bloco1 {
+    background-color: gray;
+}
+
+#bloco2 {
+    background-image: url(imagens/background001.jpg);
+    background-color: black;
+    color: white;
+}
+
+#bloco3 {
+    background-color: gray;
+}
+
+#bloco4 {
+    background-image: url(imagens/background002.jpg);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}
+
+footer > p {
+    color: white;
+}
+
+footer > a {
+    font-weight: bolder;
 }
