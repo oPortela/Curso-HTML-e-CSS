@@ -6,10 +6,12 @@
 
 * {
     margin: 0%;
+    padding: 0%;
 }
 
 header{
-    font-family: 'Sriracha';
+    font-size: 2em;
+    font-family: 'Sriracha', serif;
     color: white;
     background-color: black;
     text-align: center;
@@ -19,10 +21,21 @@ header{
     padding-bottom: 40px;
 }
 
-main > p {
+article > p {
     font-family: 'Passion One';
 }
 
+header > p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
 a {
-    
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a:hover{
+    text-decoration: underline;
 }
