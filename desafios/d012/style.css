@@ -4,6 +4,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 
+:root {
+    --fonte-padrao: 'Passion One';
+    --fonte-texto: 'Sriracha';
+}
+
 * {
     margin: 0%;
     padding: 0%;
@@ -11,7 +16,7 @@
 
 header{
     font-size: 2em;
-    font-family: 'Sriracha', serif;
+    font-family: var(--fonte-padrao);
     color: white;
     background-color: black;
     text-align: center;
@@ -40,7 +45,7 @@ a:hover{
 }
 
 article > p {
-    font-family: 'Passion One';
+    font-family: var(--fonte-texto);
 }
 
 .texto {
