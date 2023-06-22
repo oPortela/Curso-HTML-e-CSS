@@ -52,18 +52,19 @@ article > p {
 .texto {
     height: 70vh;
     padding: 20px;
+    font-size: x-large;
 }
 
 .imagem {
     background-attachment: scroll;
     background-color: rgba(0, 0, 0, 0.377);
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
 
     position: absolute;
 
-    left: 50%;
-    top: 50%;
+    left: 80%;
+    top: 70%;
 
     transform: translate(-200%, -100%);
 }
@@ -77,6 +78,7 @@ article > p {
     background-repeat: no-repeat;
     height: 70vh;
     width: auto;
+    font-size: x-large;
 
     position: relative;
 }
