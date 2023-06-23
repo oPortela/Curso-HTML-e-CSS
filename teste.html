@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!--DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -98,6 +98,45 @@
             <span></span>
             <span></span>
             <span></span>
+        </div>
+    </div>
+</body>
+</html-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste menu</title>
+    <style>
+        .menu-toggle span {
+            height: 5px;
+            transition: all 0.3s ease-in-out;
+        }
+        .menu-toggle input:checked ~ .menu-btn span:nth-child(2){
+    opacity: 0;
+}
+
+.menu-toggle input:checked ~ .menu-btn span:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.menu-toggle input:checked ~ .menu-btn span:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+    </style>
+</head>
+<body>
+    <div class="menu-toggle">
+        <input type="checkbox" id="menu-check">
+        <div class="menu-btn">
+            <label for="menu-check">
+                <span>teste</span>
+                <span>teste2</span>
+                <span>teste3</span>
+            </label>
         </div>
     </div>
 </body>
