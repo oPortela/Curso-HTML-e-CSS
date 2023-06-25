@@ -6,8 +6,8 @@
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte2: 'Passion One';
-    --fonte3: 'Sriracha';
+    --fonte-padrao: 'Passion One';
+    --fonte-texto: 'Sriracha';
 }
 
 * {
@@ -15,31 +15,22 @@
     padding: 0%;
 }
 
-html, body {
-    min-height: 100vh;
-}
-
 header{
-    font-family: var(--fonte2);
+    font-size: 2.5em;
+    font-family: var(--fonte-padrao);
     color: white;
     background-color: black;
     text-align: center;
-    /*height: 100%;
+    height: 100%;
     width: 100%;
     padding-top: 40px;
-    padding-bottom: 40px;*/
+    padding-bottom: 40px;
 }
 
 header > p {
-    font-family: var(--fonte1);
-    /*font-weight: normal;
-    font-size: large;*/
-    padding-bottom: 50px;
-}
-
-header > h1 {
-    padding-top: 50px;
-    font-variant: small-caps;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    font-size: large;
 }
 
 a {
@@ -54,10 +45,8 @@ a:hover{
     text-decoration: underline;
 }
 
-section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
+article > p {
+    font-family: var(--fonte-texto);
 }
 
 .texto {
@@ -66,6 +55,20 @@ section {
     font-size: x-large;
 }
 
+/*.imagem {
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.377);
+    height: 300px;
+    width: 300px;
+
+    position: absolute;
+
+    left: 65%;
+    top: 70%;
+
+    transform: translate(-200%, -100%);
+
+}*/
 .imagem {
     background-attachment: fixed;
     background-color: rgba(0, 0, 0, 0.377);
@@ -75,6 +78,21 @@ section {
     left: 65%;
     top: 70%;
     transform: translate(-200%, -100%);
+
+    /* Adicionar propriedades flexbox */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Adicionar media query para ajustar o tamanho da imagem */
+    @media (max-width: 768px) {
+        height: 20%;
+        width: 20%;
+    }
+    @media (max-width: 480px) {
+        height: 15%;
+        width: 15%;
+    }
 }
 
 

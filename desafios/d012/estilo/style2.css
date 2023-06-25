@@ -9,92 +9,56 @@
     padding: 0%;
 }
 
-header{
-    font-size: 2em;
-    font-family: 'Sriracha', serif;
-    color: white;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+}
+
+header {
     background-color: black;
+    color: white;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+header > h1 {
+    padding-top: 50px;
+    /*text-transform: uppercase; joga tudo em letra maiuscula*/
+    font-variant: small-caps;
 }
 
 header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
+    padding-bottom: 50px;
 }
 
-a {
-    text-decoration: none;
+header a, footer a {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-a:hover{
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-article > p {
-    font-family: 'Passion One';
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
 }
 
-#bloco1 {
-    background-color: gray;
-    height: 70vh;
+section.normal {
+    background-color: white;
+    color: black;
 }
 
-#secao1 {
-    background-attachment: fixed;
-    background-image: url(imagens/background001.jpg);
-    background-color: black;
+section.imagem{
+    background-color: rgb(12, 11, 11);
     color: white;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 70vh;
-    width: auto;
-
-    position: relative;
-}
-
-#bloco2 {
-    background-color: rgba(0, 0, 0, 0.377);
-    height: 200px;
-    width: 200px;
-
-    position: absolute;
-}
-
-#bloco3 {
-    background-color: gray;
-    height: 70vh;
-}
-
-#bloco4 {
-    background-attachment: fixed;
-    background-image: url(imagens/background002.jpg);
-    background-color: black;
-    color: white;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    height: 70vh;
-    width: auto;
-}
-
-#bloco5 {
-    height: 70vh;
 }
 
 footer {
     background-color: black;
-    text-align: center;
-}
-
-footer > p {
     color: white;
-}
-
-footer > a {
-    font-weight: bolder;
+    text-align: center;
+    padding: 10px;
 }
