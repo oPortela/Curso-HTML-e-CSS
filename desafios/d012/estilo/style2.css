@@ -62,6 +62,24 @@ section.imagem > p {
     width: 400px;
 }
 
+#img01 {
+    background-color: black;
+    background-image: url(../imagens/background001.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+#img02 {
+    background-color: black;
+    background-image: url(../imagens/background002.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
 footer {
     background-color: black;
     color: white;
