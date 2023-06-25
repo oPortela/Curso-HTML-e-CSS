@@ -99,7 +99,7 @@ article > p {
 #secao1 {
     background-position: center top;
     background-attachment: fixed;
-    background-image: url(imagens/background001.jpg);
+    background-image: url(../imagens/background001.jpg);
     background-color: black;
     color: white;
     background-size: cover;
@@ -114,7 +114,7 @@ article > p {
 #secao2 {
     background-position: center bottom;
     background-attachment: fixed;
-    background-image: url(imagens/background002.jpg);
+    background-image: url(../imagens/background002.jpg);
     background-color: black;
     color: white;
     background-size: cover;
