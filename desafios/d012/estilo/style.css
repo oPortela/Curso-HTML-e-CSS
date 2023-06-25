@@ -75,6 +75,13 @@ section.imagem > p {
     background-color: rgba(0, 0, 0, 0.253);
     width: 400px;
     font-family: var(--fonte3);
+/*
+    position: absolute;
+
+    left: 65%;
+    top: 70%;
+
+    transform: translate(-200%, -100%);*/
 }
 
 #img01 {
@@ -85,7 +92,7 @@ section.imagem > p {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 65vh;
     width: auto;
 
     position: relative;
@@ -99,7 +106,7 @@ section.imagem > p {
     color: white;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 65vh;
     width: auto;
 
     position: relative;
