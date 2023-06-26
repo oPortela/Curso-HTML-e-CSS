@@ -74,10 +74,13 @@ section.imagem > p {
     display: inline-block;
 }
 
-/*#img01 {
+section > p {
+    padding-bottom: 1em;
+}
+
+#img01 {
     background-color: black;
     background-image: url(../imagens/background001.jpg);
-    height: 60vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
@@ -86,11 +89,10 @@ section.imagem > p {
 #img02 {
     background-color: black;
     background-image: url(../imagens/background002.jpg);
-    height: 60vh;
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
-}*/
+}
 
 footer {
     background-color: black;
