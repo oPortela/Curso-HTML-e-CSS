@@ -23,6 +23,10 @@
             background-color: gray;
             color: white;
         }
+
+        td.num {
+            text-align: right;
+        }
     </style>
 </head>
 <body>
@@ -42,6 +46,13 @@
             <th>Estado</th>
             <th>População</th>
         </thead>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="num"><strong>203.062.512</strong></td>
+            </tr>
+        </tfoot>
+        <!-- Como o HTML 5 possui semantica, não importa a ordem o thead, tbody ou tfoot, ele sempre vai obedecer a ordem.-->
         <tbody>
             <tr>
                 <td>São Paulo</td>
@@ -152,12 +163,6 @@
                 <td class="num">636 303</td>
             </tr>
         </tbody>
-        <tfoot>
-            <tr>
-                <th>Total de habitantes</th>
-                <td>203.062.512</td>
-            </tr>
-        </tfoot>
     </table>
 </body>
 </html>
