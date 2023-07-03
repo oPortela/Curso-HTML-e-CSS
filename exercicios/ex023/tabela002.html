@@ -31,15 +31,23 @@
             color: white;
         }
 
-        tbody > tr:nth-child(even)/*ou 2n */ { /*essa pseudo-classe fica responsavel colocar a cor de 2 em 2, e assim vice-e-versa  (2n)*/
+        tbody > tr:nth-child(3n)/*ou 2n */ { /*essa pseudo-classe fica responsavel colocar a cor de 2 em 2, e assim vice-e-versa  (2n)*/
         /* se eu colocar outros funções como a:
         odd = impar --ele colocar cor somente nas linhas impares
         even = par  --ele colocar cor somente nas linhas pares*/
             background-color: lightgray;
         }
 
-        tbody > tr:nth-child(odd) /* ou 2n-1 */{
+        tbody > tr:nth-child(2n) /* ou 2n-1 */{
             background-color: lightblue;
+        }
+
+        tbody > tr:nth-child(4n) /* ou 2n-1 */{
+            background-color: rgb(179, 23, 23);
+        }
+
+        tbody > tr:nth-child(5n) /* ou 2n-1 */{
+            background-color: rgb(23, 179, 88);
         }
 
         td.num {
