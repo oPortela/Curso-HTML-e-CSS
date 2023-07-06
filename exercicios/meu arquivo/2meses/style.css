@@ -1,141 +1,110 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family= Great +Vibes & display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Felipa&display=swap');
 
 :root {
     --fonte1: Verdana, Geneva, Tahoma, sans-serif;
-    --fonte-padrao: 'Passion One';
-    --fonte-texto: 'Sriracha';
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+    --fonte4: 'Style Script';
 }
 
 * {
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
 }
 
-header{
-    font-size: 2.5em;
-    font-family: var(--fonte-padrao);
-    color: white;
+html, body {
+    min-height: 100vh;
+    background-color: darkgray;
+    font-family: var(--fonte1);
+}
+
+header {
     background-color: black;
+    color: white;
     text-align: center;
-    height: 100%;
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+}
+
+header > h1 {
+    padding-top: 50px;
+    font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: normal;
-    font-size: large;
+    padding-bottom: 50px;
 }
 
-a {
-    text-decoration: none;
+header a, footer a {
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: large;
-    font-weight: bold;
+    text-decoration: none;
+    font-weight: bolder;
 }
 
-a:hover{
+header a:hover, footer a:hover {
     text-decoration: underline;
 }
 
-article > p {
-    font-family: var(--fonte-texto);
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 }
 
-.texto {
-    height: 70vh;
-    padding: 20px;
-    font-size: x-large;
+section > p {
+    padding-bottom: 2em;
 }
 
-/*.imagem {
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.377);
-    height: 300px;
-    width: 300px;
-
-    position: absolute;
-
-    left: 65%;
-    top: 70%;
-
-    transform: translate(-200%, -100%);
-
-}*/
-.imagem {
-    background-attachment: fixed;
-    background-color: rgba(0, 0, 0, 0.377);
-    height: 30%;
-    width: 30%;
-    position: absolute;
-    left: 65%;
-    top: 70%;
-    transform: translate(-200%, -100%);
-
-    /* Adicionar propriedades flexbox */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    /* Adicionar media query para ajustar o tamanho da imagem */
-    @media (max-width: 768px) {
-        height: 20%;
-        width: 20%;
-    }
-    @media (max-width: 480px) {
-        height: 15%;
-        width: 15%;
-    }
+section.normal {
+    background-color: rgb(192, 192, 192);
+    color: black;
 }
 
-
-#secao1 {
-    background-position: center top;
-    background-attachment: fixed;
-    background-image: url(../imagens/background001.jpg);
-    background-color: black;
+section.imagem {
+    background-color: rgb(51, 51, 51);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
     background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    width: auto;
-    font-size: x-large;
-
-    position: relative;
+    background-attachment: fixed;
 }
 
-#secao2 {
-    background-position: center bottom;
-    background-attachment: fixed;
-    background-image: url(../imagens/background002.jpg);
-    background-color: black;
-    color: white;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 70vh;
-    width: auto;
-    font-size: x-large;
+section.imagem > p {
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.514);
+    text-shadow: 1px 1px 0px black;
+}
 
-    position: relative;
+section#img01 {
+    background-image: url(imagens/aliança.jpg);
+    background-position: right center;
+    
+}
+
+section#img02 {
+    background-image: url(imagens/nos-dois.jpg);
+    
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(102, 102, 102);
+    color: white;
     text-align: center;
     padding: 10px;
-}
-
-footer > p {
-    color: white;
-}
-
-footer > a {
-    font-weight: bolder;
 }
