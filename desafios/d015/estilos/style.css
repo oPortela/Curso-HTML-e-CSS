@@ -49,10 +49,10 @@ section#botao {
     border-radius: 50%;
     height: 55px;
     width: 55px;
-    padding: 10px;
+    margin: 10px;
 }*/
 
-section#botao img {
+section#botao img {/*section#botao > a > img*/
     width: 50px;
     margin: 10px;
     border-radius: 50%;
