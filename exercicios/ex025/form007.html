@@ -7,13 +7,31 @@
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="iest">Estado</label>
             <select name="est" id="iest">
 
                 <option value="" selected>--- Escolha ---</option>
-                <optgroup label="Região Sudeste">
+                <optgroup label="Região Norte">
+                    <option value="TO">Tocantins</option>
+                    <option value="PA">Pará</option>
+                </optgroup>
+
+                <optgroup label="Região Sul">
+                    <option value="PR">Paraná</option>
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                </optgroup>
+
+                <optgroup label="Região Centro-Oeste">
+                    <option value="GO">Goiás</option>
+                    <option value="MT">Mato Grosso</option>
+                    <option value="MS">Mato Grosso do Sul</option>
+                </optgroup>
+
+                <optgroup label="Região Sudeste"> 
+                    <option value="ES">Espirito Santo</option>
                     <option value="MG">Minas Gerais</option>
                     <option value="RJ">Rio de Janeiro</option>
                     <option value="SP">São Paulo</option>
@@ -32,6 +50,7 @@
             <input type="text" name="prof" id="iprof" list="lstprof">
             <datalist id="lstprof">
                 <option>Administrador</option>
+                <option>Analista</option>
                 <option>Contador</option>
                 <option>Desenvolvedor</option>
                 <option>Professor</option>
