@@ -4,6 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
+    <style>
+        body {
+            background-image: linear-gradient(to right, #020C15, #156A86, #00080D);
+            color: white;
+        }
+
+        h1 {
+            text-align: center;
+            box-shadow: 5px,3px, 7px, 1px,black;
+        }
+
+        form {
+            margin: auto;
+            background-color: #011826;
+            color: white;
+            padding: 10px;
+            height: auto;
+            width: 300px;
+            text-align: center;
+            border-radius: 15px;
+        }
+
+        #iest {
+            text-align: center;
+        }
+
+        #imsg {
+            border: black 2px solid;
+            /*color: white;
+            background-image: linear-gradient(to right, gray, white);*/
+            box-shadow: 5px,3px, 7px, 1px,black;
+            border-radius: 5px;
+        }
+
+        .botao {
+            border-radius: 50px;
+            background-image: linear-gradient(to right, #001E69, #26E7F9);
+            color: aliceblue;
+            box-shadow: 5px,3px, 7px, 1px,black;
+        }
+    </style>
 </head>
 <body>
     <h1>Exemplo de formulário</h1>
@@ -64,8 +105,8 @@
         </p>
 
         <p>
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar" class="botao">
+            <input type="reset" value="Limpar" class="botao">
         </p>
     </form>
 </body>
