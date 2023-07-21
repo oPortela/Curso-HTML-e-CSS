@@ -3,7 +3,5 @@
 /*Configuração vertical (retrato - portrait)*/
 
 body {
-    background-color: yellow;
-    /*background-image: url(../imagens/cev-portrait.jpg);
-    background-position: center bottom;*/
+    background-image: url(../imagens/cev-portrait.jpg);
 }
